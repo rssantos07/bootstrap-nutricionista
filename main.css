@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    font-family: 'Pacifico', cursive;
+    background-color: #007566;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #007566;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+header .container .nav .nav-link,
+header .navbar-brand {
+    color: #fff;
+}
+
+#sobre-mim .carousel img {
+   height: 370px;
+}
+
+
+.section-title {
+    font-family:'Pacifico', cursive;
+    color: #007566;
+}
+
+.texto-colorido {
+    font-family: 'Roboto', sans-serif;
+    color: #007566;
+}
+
+
+#servicos{
+    background-color: #8FC1B5;
+}
+
+#servicos .nav button.active,
+#contato button {
+    background-color: #007566 ;
+}
+
+#servicos .nav button,
+#contato button {
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007566;
+}
+
+.whats i{
+    color: green;
+    font-size: 100px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 2vh;
+    z-index: 1;
+    right: 40px;
+    
+}
+
+@media (max-width: 767px) {
+    .whats {
+        right: 0;
+        display: none;
+    }
+}
